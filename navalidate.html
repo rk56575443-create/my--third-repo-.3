@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Contact Form (novalidate)</h3>
+
+<form action="/submit" novalidate>
+  <label>Name:</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>Message:</label><br>
+  <textarea name="message" required></textarea><br><br>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<p><b>Note:</b> The browser will not show validation errors because of <code>novalidate</code>.</p>
+
+</body>
+</html>
